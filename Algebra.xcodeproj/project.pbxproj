@@ -12,6 +12,7 @@
 		78DA264B2150230A00959E5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DA26492150230A00959E5D /* Main.storyboard */; };
 		78DA264D2150230A00959E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78DA264C2150230A00959E5D /* Assets.xcassets */; };
 		78DA26502150230A00959E5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DA264E2150230A00959E5D /* LaunchScreen.storyboard */; };
+		78DA26582150826F00959E5D /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DA26572150826F00959E5D /* FactProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		78DA264C2150230A00959E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78DA264F2150230A00959E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78DA26512150230A00959E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78DA26572150826F00959E5D /* FactProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				78DA26452150230A00959E5D /* AppDelegate.swift */,
 				78DA26472150230A00959E5D /* ViewController.swift */,
 				78DA26492150230A00959E5D /* Main.storyboard */,
+				78DA26572150826F00959E5D /* FactProvider.swift */,
 				78DA264C2150230A00959E5D /* Assets.xcassets */,
 				78DA264E2150230A00959E5D /* LaunchScreen.storyboard */,
 				78DA26512150230A00959E5D /* Info.plist */,
@@ -90,6 +93,13 @@
 		78DA263A2150230A00959E5D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+					2,
+					3,
+					4,
+					5,
+				);
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = jth4;
@@ -138,6 +148,7 @@
 			files = (
 				78DA26482150230A00959E5D /* ViewController.swift in Sources */,
 				78DA26462150230A00959E5D /* AppDelegate.swift in Sources */,
+				78DA26582150826F00959E5D /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CNKXWY3YPB;
 				INFOPLIST_FILE = Algebra/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jth4.Algebra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CNKXWY3YPB;
 				INFOPLIST_FILE = Algebra/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jth4.Algebra;
 				PRODUCT_NAME = "$(TARGET_NAME)";

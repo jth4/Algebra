@@ -10,16 +10,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+    @IBOutlet weak var mathFact: UIImageView!
+
+    let factProvider = FactProvider()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        mathFact.image = UIImage(named: factProvider.randomFact() )
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBAction func onTapGesture(_ sender: UITapGestureRecognizer) {
+        mathFact.image = UIImage(named: factProvider.randomFact())
+    }
+    
+            
 }
 
